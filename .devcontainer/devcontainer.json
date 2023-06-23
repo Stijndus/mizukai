@@ -1,0 +1,26 @@
+{
+  "name": "Mizukai Apparel",
+  "build": {
+    "dockerfile": "dockerfile",
+    "args": {
+      "NODE_VERSION": "14"
+    }
+  },
+  "forwardPorts": [4200],
+  "extensions": [
+    "angular.ng-template",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "chr33z.lingua-vscode",
+    "mutantdino.resourcemonitor",
+    "slevesque.vscode-multiclip",
+    "stringham.move-ts",
+    "eamodio.gitlens",
+    "johnpapa.angular2",
+    "cyrilletuzi.angular-schematics",
+    "thorstenrintelen.angular-spec-generator",
+    "shevtsov.vscode-cy-helper",
+    "atlassian.atlascode",
+    "github.copilot"
+  ]
+}

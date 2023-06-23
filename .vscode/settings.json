@@ -1,0 +1,65 @@
+{
+  "lingua.defaultLanguage": "nl",
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  "javascript.format.enable": false,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "gitflow4code.hotfixes": [
+    {
+      "name": "hotfix/HFE-980-custom-velden-aanmaken",
+      "base": "master"
+    }
+  ],
+  "html.format.wrapAttributes": "force",
+  "html-fmt-vscode.multilineAttributeThreshold": 1,
+  "html-fmt-vscode.indentSize": 2,
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.templating": false,
+  "html.format.preserveNewLines": true,
+  "html.format.indentHandlebars": false,
+  "html.format.wrapAttributesIndentSize": 4,
+  "editor.formatOnSaveMode": "modificationsIfAvailable"
+}
